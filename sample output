@@ -1,0 +1,12 @@
+[student@localhost Documents]$ yacc -d bc024.y
+[student@localhost Documents]$ lex bc024.l
+[student@localhost Documents]$ gcc lex.yy.c y.tab.c -o bc024
+[student@localhost Documents]$ ./bc024
+8*2;
+16
+4/2;
+2
+7+6;
+13
+5-3
+[student@localhost Documents]$ 
